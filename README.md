@@ -1,6 +1,6 @@
 # React Chat
 
-ReactChat is an example chat service using socket.io and react.
+ReactChat is an example chat service using socket.io.
 
 This project works with:
 

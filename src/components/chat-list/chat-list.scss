@@ -1,0 +1,25 @@
+.chat-list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 50px;
+  width: 25%;
+  height: calc(100% - 50px);
+  background-color: #111b21d5;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #111b21; /* color of the tracking area */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #374045; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid #111b21; /* creates padding around scroll thumb */
+  }
+}

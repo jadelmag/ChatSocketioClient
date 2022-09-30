@@ -1,0 +1,23 @@
+.wellcome-chat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  p {
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  small {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
